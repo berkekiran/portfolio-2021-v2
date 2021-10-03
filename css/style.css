@@ -169,15 +169,22 @@ section{
 .menubarcontainer{
     position: fixed;
     width: 1600px;
+    z-index: 5;
     height: auto;
 }
 
 .menubar{
     float: right;
-    margin-right: 5rem;
-    padding-top: 5rem;
+    height: 2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #f3f3f3;
+    margin-right: 4rem;
+    margin-top: 4rem;
+    padding-top: 1em;
     font-size: 1rem;
     font-weight: 700;
+    border-radius: 1rem;
 }
 
 .menubar a{
